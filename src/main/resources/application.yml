@@ -1,0 +1,10 @@
+server:
+  port: 8051
+spring:
+  datasource:
+    url: jdbc:h2:mem:tobacco_shop
+    driver-class-name: org.h2.Driver
+    username: sa
+  h2:
+    console:
+      enabled: false
